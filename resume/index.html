@@ -1,0 +1,595 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Даниил Веденеев</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Даниил Веденеев
+					</h1>
+					<h2>
+						Программист
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">fundan.fundan@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+7 (931) 222-78-44</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Считаю себя ответственным и вдумчивым разработчиком, эти же качества наиболее всего ценю в других сотрудниках. Неконфликтен, пунктален. В работе ориентируюсь на золотую середину между перфекционизмом и &quot;сдать работу в сроки кое-как, остальное поправим потом&quot;. Профессиональные интересы: работа с данными, разработка и проектирование высоконагруженных систем, информационная безопасность, криптография, оптимизация кода, разработка приятных, понятных и удобных в использовании интерфейсов (как программных, так и графических)</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Telegram
+					</strong>
+					<div class="username">
+							danielleinad
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/daniel-leinad">daniel-leinad</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span>
+					<span class="date">
+						2021-01 — 2021-06
+					</span>
+				</h4>
+				<div class="position">
+					Программист-стажер 1С
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Разработка http-сервиса для обмена документами</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span>
+					<span class="date">
+						2021-06 — 2022-06
+					</span>
+				</h4>
+				<div class="position">
+					Программист 1С
+				</div>
+				<div class="summary">
+					<p>Разработка печатных форм, отчетов и обработок. Поддержка пользователей. Отладка и исправление ошибок. Обмены данными. Обновление нетиповых конфигураций. Тимлидство, обучение новых сотрудников. Администрирование 1с-серверов. Работа с лицензиями.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Участвовал на внедрении 1С:ERP 2.5: перенос данных из старой системы, работа с ЭДО и EDI</li>
+					<li class="bullet">Участвовал в переводе доработанной конфигурации 1С:ERP с версии 2.4 на 2.5</li>
+					<li class="bullet">Разработка самописной конфигурации под нужды клиента на основе БСП</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span>
+					<span class="date">
+						2022-06 — 2024-03
+					</span>
+				</h4>
+				<div class="position">
+					Технический руководитель
+				</div>
+				<div class="summary">
+					<p>Техническая консультация, разработка архитектур информационных систем, разработка сложных отчетов, ведение проектов, оптимизация кода, код-ревью, интервьюирование кандидатов</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Перевод системы распределенных информационных баз 1С &gt;100 пользователей с MS SQL на Postgres, оптимизация запросов. В проекте использовался 1С:Тест-центр и нагрузочные тесты</li>
+					<li class="bullet">Разработка интеграции базы 1С с внешней информационной системой через брокер сообщений RabbitMQ</li>
+					<li class="bullet">Разработка обмена между базами 1С используя Kafka</li>
+					<li class="bullet">Разработка на Python в области компьютерного зрения, нейросетей и машинного обучения. Разработка приложения для бизнес-аналитики, контроля производства и безопасности, основанного на технологии определения пола и возраста людей на изображении или видео.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Национальный исследовательский университет «Высшая школа экономики»</span>
+					<span class="date">
+						2017 — 2019
+					</span>
+				</h4>
+				<div class="area">
+					Фундаментальная и Компьютерная Лингвистика
+				</div>
+				<div class="studyType">
+					Неполное высшее
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Московский технический университет связи и информатики</span>
+					<span class="date">
+						2019 — 2020
+					</span>
+				</h4>
+				<div class="area">
+					Инфокоммуникационные технологии и системы связи
+				</div>
+				<div class="studyType">
+					Неполное высшее
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Самообразование</span>
+					<span class="date">
+						 — 
+					</span>
+				</h4>
+				<div class="area">
+					Разработка, языки программирования
+				</div>
+				<div class="studyType">
+					Самостоятельно изученные темы
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>The Rust Programming Language</li>
+					<li>A Tour of C++ (Bjarne Stroustrup)</li>
+					<li>Java Precisely (Peter Sestoft)</li>
+					<li>The Rustonomicon</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Самообразование</span>
+					<span class="date">
+						 — 
+					</span>
+				</h4>
+				<div class="area">
+					Разработка, языки программирования
+				</div>
+				<div class="studyType">
+					В процессе изучения
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Effective Java (Joshua Bloch)</li>
+					<li>Learn You a Haskell for Great Good! (Miran Lipovaca)</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Международная лингвистическая олимпиада школьников, серебро</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2015-07
+				</div>
+				<div class="summary">
+					https://ru.wikipedia.org/wiki/Международная_лингвистическая_олимпиада_школьников
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Международная лингвистическая олимпиада школьников, бронза</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2016-07
+				</div>
+				<div class="summary">
+					https://ru.wikipedia.org/wiki/Международная_лингвистическая_олимпиада_школьников
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Международная лингвистическая олимпиада школьников, серебро</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2017-07
+				</div>
+				<div class="summary">
+					https://ru.wikipedia.org/wiki/Международная_лингвистическая_олимпиада_школьников
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>1С</h4>
+				</div>
+				<ul class="keywords">
+					<li>ERP</li>
+					<li>УХ</li>
+					<li>Бухгалтерия</li>
+					<li>ЗУП</li>
+					<li>СКД</li>
+					<li>БСП</li>
+					<li>КД 2</li>
+					<li>КД 3</li>
+					<li>Тест-центр</li>
+					<li>EDT</li>
+					<li>1С:Исполнитель</li>
+					<li>Технологический журнал</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Python</h4>
+				</div>
+				<ul class="keywords">
+					<li>Numpy</li>
+					<li>Pandas</li>
+					<li>Django</li>
+					<li>Docker</li>
+					<li>async/await</li>
+					<li>PyTorch</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>SQL</h4>
+				</div>
+				<ul class="keywords">
+					<li>MS SQL</li>
+					<li>PostgreSQL</li>
+					<li>Оптимизация SQL-запросов</li>
+					<li>Отладка запросов через планировщик</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Rust</h4>
+				</div>
+				<ul class="keywords">
+					<li>Tokio</li>
+					<li>Serde</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Kotlin</h4>
+				</div>
+				<ul class="keywords">
+					<li>Android</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Java</h4>
+				</div>
+				<ul class="keywords">
+					<li>Android</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>C++</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Docker</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Linux</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Git</h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Английский</strong>
+				</div>
+				<div class="fluency">
+					Разговорный
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Музыка</h4>
+				</div>
+				<ul class="keywords">
+					<li>гитара</li>
+					<li>рок-музыка</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+	</div>
+	
+	</body>
+</html>
