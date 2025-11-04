@@ -1,0 +1,15 @@
+{
+  "name": "web-pages",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "web_pages_bg.wasm",
+    "web_pages.js",
+    "web_pages.d.ts"
+  ],
+  "main": "web_pages.js",
+  "types": "web_pages.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
